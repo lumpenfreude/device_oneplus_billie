@@ -1,14 +1,31 @@
 [
   {
-    "repository": "lumpenfreude/kernel_oneplus_sm6350",
+    "repository": "kernel_oneplus_sm6350",
     "target_path": "kernel/oneplus/sm6350",
+    "branch": "eleven"
+  },
+  {
+    "repository": "lumpenfreude/vendor_oneplus_billie",
+    "target_path": "vendor/oneplus/billie",
     "branch": "eleven",
     "remote": "github"
   },
   {
-    "repository": "vendor_oneplus_billie",
-    "target_path": "vendor/oneplus/billie",
-    "branch": "main",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch": "master",
     "remote": "github"
+  },
+  {
+    "repository": "CryllicBuster273/packages_apps_googlecamera",
+    "target_path": "packages/apps/GoogleCamera",
+    "branch": "ten",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "vendor_oneplus_billie-vendor",
+    "target_path": "vendor/oneplus/billie-vendor",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
   }
 ]
