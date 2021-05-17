@@ -7,7 +7,7 @@
   },
   {
     "repository": "vendor_oneplus_billie",
-    "target_path": "vendor/oneplus",
+    "target_path": "vendor/oneplus/billie",
     "branch": "main",
     "remote": "github"
   }
