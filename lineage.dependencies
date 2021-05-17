@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "lumpenfreude/kernel_oneplus_sm6350",
+    "target_path": "kernel/oneplus/sm6350",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository": "vendor_oneplus_billie",
+    "target_path": "vendor/oneplus",
+    "branch": "main",
+    "remote": "github"
+  }
+]
