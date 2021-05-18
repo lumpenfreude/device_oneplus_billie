@@ -10,10 +10,4 @@
     "branch": "eleven",
     "remote": "github"
   },
-  {
-    "repository": "vendor_oneplus_billie-vendor",
-    "target_path": "vendor/oneplus/billie-vendor",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
-  }
 ]
