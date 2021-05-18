@@ -54,8 +54,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
-
-
 # A/B
 AB_OTA_UPDATER := true
 
@@ -89,9 +87,6 @@ PRODUCT_PACKAGES += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong
-
-PRODUCT_COPY_FILES += \
-	vendor/product/lib/com.qualcomm.qti.ant@1.0.so:
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -135,7 +130,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Camera
+ Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
 	android.hardware.camera.provider.2.4-impl \
