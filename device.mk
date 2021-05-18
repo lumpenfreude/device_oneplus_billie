@@ -109,8 +109,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 # Bluetooth
-#PRODUCT_PACKAGES += \
-#    BluetoothQti
+PRODUCT_PACKAGES += \
+    BluetoothQti
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
