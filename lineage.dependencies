@@ -1,4 +1,16 @@
-[
+[  
+  {
+    "repository": "vendor_oneplus_billie",
+    "target_path": "vendor/oneplus/billie",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "vendor_oneplus_billie-vendor",
+    "target_path": "vendor/oneplus/billie-vendor",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  },
   {
     "repository": "kernel_oneplus_sm6350",
     "target_path": "kernel/oneplus/sm6350",
@@ -9,5 +21,5 @@
     "target_path": "vendor/oneplus/billie",
     "branch": "eleven",
     "remote": "github"
-  },
+  }
 ]
