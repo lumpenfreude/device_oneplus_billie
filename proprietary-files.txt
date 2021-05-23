@@ -72,7 +72,7 @@ product/framework/QtiTelephonyServicelibrary.jar
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
--framework/WfdCommon.jar
+framework/WfdCommon.jar
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
