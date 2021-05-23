@@ -22,6 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/billie/device.mk)
 
 # Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_billie
 PRODUCT_DEVICE := billie
@@ -34,4 +35,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusNordN10 \
     PRODUCT_NAME=OnePlusNordN10 \
+    PRIVATE_BUILD_DESC="NordN10-user 10 QKQ1.200412.002 2010231954 release-keys"
 
+BUILD_FINGERPRINT := "OnePlus/NordN10/NordN10:10/QKQ1.200412.002/2010231954:user/release-keys"

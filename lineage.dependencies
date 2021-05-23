@@ -1,25 +1,20 @@
 [  
   {
-    "repository": "vendor_oneplus_billie",
-    "target_path": "vendor/oneplus/billie",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "repository": "lineage4microg/android_prebuilts_prebuiltapks"
+    "target_path": "prebuilts/prebuiltapks",
+    "branch": "master,
+    "remote": "github
   },
   {
-    "repository": "vendor_oneplus_billie-vendor",
-    "target_path": "vendor/oneplus/billie-vendor",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
-  },
-  {
-    "repository": "kernel_oneplus_sm6350",
+    "repository": "lumpenfreude/kernel_oneplus_sm6350",
     "target_path": "kernel/oneplus/sm6350",
-    "branch": "eleven"
+    "branch": "eleven",
+    "remote": "github"
   },
   {
     "repository": "lumpenfreude/vendor_oneplus_billie",
     "target_path": "vendor/oneplus/billie",
-    "branch": "eleven",
+    "branch": "main",
     "remote": "github"
   }
 ]
