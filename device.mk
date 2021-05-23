@@ -519,17 +519,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oneplus_lito
 
-# WiFi
-PRODUCT_PACKAGES += \
-    WifiResCommon
-
 # WiFi Display
 PRODUCT_PACKAGES += \
 	android.hardware.wifi@1.0-service \
 	hostapd \
 	libqsap_sdk \
 	libwifi-hal-ctrl \
-	libwifi-hal-qcom
+	libwifi-hal-qcom \
 	libwpa_client \
 	vendor.qti.hardware.wifi.hostapd@1.0.vendor \
 	vendor.qti.hardware.wifi.hostapd@1.1.vendor \
